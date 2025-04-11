@@ -29,8 +29,8 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
             Note = "     ↓ Join the discord for key ↓ https://discord.com/invite/Q6ndPDtK38", -- Use this to tell the user how to get a key
             VoidHubBlockspinFarm = "VoidHubKeyBlockSpin", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
             SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
-            GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-            Key = {"https://pastebin.com/raw/KabjJ5gK"}
+            GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+            Key = {"D8EY6DV8snucLtYLU37MoHuKCbQv2CKS"}
         }
     })
 
