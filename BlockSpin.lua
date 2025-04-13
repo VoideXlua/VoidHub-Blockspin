@@ -28,7 +28,7 @@ local Window = Rayfield:CreateWindow({
         Subtitle = "by VoideX",
         Note = "     ↓ Join the discord for key ↓ https://discord.com/invite/Q6ndPDtK38",
         VoidHubBlockspinFarm = "VoidHubKeyBlockSpin",
-        SaveKey = true,
+        SaveKey = false,
         GrabKeyFromSite = false,
         Key = {"yZ5zVQkJ4drRHDCCingxp8ksMUoCpUsJ"}
     }
