@@ -100,6 +100,8 @@ local ButtonII = FarmTab:CreateButton({
             end
             if prompt then break end
         end
+        
+        prompt.MaxActivationDistance = 20
 
         for _, model in ipairs(SteakHouse:GetChildren()) do
             if model.Name == "Grill" then
@@ -143,8 +145,6 @@ local ButtonII = FarmTab:CreateButton({
         local function humanoidRootPart()
             return character():WaitForChild("HumanoidRootPart") :: Part
         end
-
-        humanoid().Sit = true
 
         while getgenv().AutoFarm do
             local tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Linear, Enum.EasingDirection.In)
