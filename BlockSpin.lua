@@ -30,7 +30,7 @@ local Window = Rayfield:CreateWindow({
         VoidHubBlockspinFarm = "VoidHubKeyBlockSpin",
         SaveKey = true,
         GrabKeyFromSite = false,
-        Key = {"D8EY6DV8snucLtYLU37MoHuKCbQv2CKS", "D7Ap5LYuGtUEirVLQwyxCf3EfVNGMcKnSR"}
+        Key = {"yZ5zVQkJ4drRHDCCingxp8ksMUoCpUsJ"}
     }
 })
 
